@@ -1,0 +1,26 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Message {
+  id: ID!
+  name: String!
+  email: String!
+  message: String!
+}
+
+type Query {
+  getMessages: [Message!]
+}
+
+
+input MessageInput {
+  name: String!
+  email: String!
+  message: String!
+}
+
+type Mutation {
+  addMessage(input: MessageInput!): Message!
+}
