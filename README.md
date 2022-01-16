@@ -1,4 +1,5 @@
 # my-portfolio-public
+This repo is an example and for reference only.
 ## Reference
 
 - [Next.js](https://nextjs.org/docs/getting-started)
